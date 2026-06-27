@@ -1,5 +1,5 @@
 variable "project" {
-    type = string
+  type = string
 }
 
 variable "environment" {
@@ -11,10 +11,10 @@ variable "sg_name" {
 }
 
 variable "vpc_id" {
-    type = string
+  type = string
 }
 
 variable "sg_tags" {
-  type = map(any)
+  type    = map(any)
   default = {}
 }
